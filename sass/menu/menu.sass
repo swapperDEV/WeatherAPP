@@ -1,0 +1,42 @@
+*
+    margin: 0
+    padding: 0
+.screen
+    background-image: url("/icons/bg.jpg")
+    background-position: bottom
+    background-size: cover
+.forecast
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    background-color: white
+    border-radius: 8px
+    box-shadow: 10px 16px 24px -15px rgba(66, 68, 90, 1)
+    padding: 20px
+    transition: 0.3s ease
+    z-index: 999
+.map
+    z-index: 0
+    position: fixed
+.input
+    display: flex
+.input input
+    background-color: white
+    border: 1px solid gray
+    border-radius: 5px
+    color: gray
+    font-size: 15px
+    padding: 5px
+.input button
+    background-color: lightgray
+    font-size: 30px
+    transition: 0.3s ease
+    color: gray 
+    border: 0px solid gray 
+    border-radius: 2px
+    margin-left: 15px
+    padding: 5px
+    cursor: pointer
+.input button:hover
+    transform: scale(1.1)

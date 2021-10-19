@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/71ecc900fa.js" crossorigin="anonymous"></script>
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="sass/start/start.css">
+    <link rel="stylesheet" href="sass/menu/menu.css">
+    <link rel="stylesheet" href="sass/data/data.css">
+    <link rel="stylesheet" href="sass/media/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css" type="text/css">
+
+</head>
+<body>
+    <div class='map' id="map">    </div>
+
+        <div class='forecast'>
+            <div class='input'>
+                <input class='getData' maxlength="25" placeholder='Search City'/> <button class='btn postData'><i class="fas fa-search"></i></button><button class='btn getLoc'><i class="fas fa-location-arrow"></i></button>
+            </div>
+
+            
+            <div class='data'>
+                <div class='leftData'>
+                    <div class='cityName darkgray'><span id="city"></span> <span id="state"></span> <span id="country"></span></div>
+                    <div class='date'><span class='currentdata'>
+                    </span></div>
+                    <div class='mainweather'><span class='mainweatherinfo'></span>
+                    </div>
+                    <div class='weatherIMG'><img class='weatherIMG2' width="64" height="64"><div class='weatherTemp darkgray'><b class='temperature'></b><sup class='assign'>°C</sup></div>
+                    </div>
+                </div>
+                <div class='rightdata'>
+                    <div class='leftcolumn'>
+                        <div class='flexy'>
+                            <p class='darkgray'>Humidity:</p><b class='lightgray humidity'></b>
+                        </div>
+                        <div class='flexy'>
+                            <p class='darkgray'>Pressure:</p><b class='lightgray pressure'></b>
+                        </div>
+                        <div class='flexy'>
+                            <p class='darkgray'>WindSpeed:</p><b class='lightgray windspeed'></b>
+                        </div>
+                    </div>
+                    <div class='rightcolumn'>
+                        <div class='flexy'>
+                            <p class='darkgray'>Visibility:</p><b class='lightgray visibility'></b>
+                        </div>
+                        <div class='flexy'>
+                            <p class='darkgray'>Sunrise:</p><b class='lightgray sunrise'></b>
+                        </div>
+                        <div class='flexy'>
+                            <p class='darkgray'>Sunset:</p><b class='lightgray sunset'></b>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class='sdaydata'>
+            </div>
+            <div class='lightgray update'><i class="fas fa-redo-alt"></i> Update</div>
+        </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/getlocation.js"></script>
+    <script src="scripts/mapcreate.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/weatherInfo.js"></script>
+    <script src="scripts/searchWeather.js"></script>
+    <script src="scripts/7dayforecast.js"></script>
+    <script src="scripts/update.js"></script>
+</body>
+</html>
+<!--
+    icons from manifestinteractive github//
+-->

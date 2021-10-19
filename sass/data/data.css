@@ -1,0 +1,102 @@
+.data {
+  margin-top: 20px;
+  color: silver;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.rightdata {
+  padding-left: 20%;
+}
+
+.darkgray {
+  color: gray;
+}
+
+.lightgray {
+  color: silver;
+}
+
+.weatherTemp {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.weatherIMG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+.flexy {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+.leftdata {
+  display: block;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+.rightdata {
+  display: block;
+}
+
+.rightcolumn {
+  margin-left: 0px;
+}
+
+.sdaydata {
+  border-top: 1px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dayDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 1px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dayDiv img {
+  width: 40px;
+  height: 40px;
+}
+
+.update {
+  margin-top: 10px;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+/*# sourceMappingURL=data.css.map */
