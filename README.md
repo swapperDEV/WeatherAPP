@@ -5,7 +5,7 @@ and map with active city
 
 LIVE: https://swapperdev.github.io/WeatherAPP/
 
-Used apiS:
+Used api's:
   - OpenweatherMAP
   - OpenLayers 
 Icons from manifestinteractive/github
