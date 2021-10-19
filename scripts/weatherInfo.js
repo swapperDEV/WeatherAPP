@@ -14,21 +14,21 @@ const getPhoto = () => {
     const photo = document.querySelector('.weatherIMG2')
     let id = statusID.id
     if(id >= 200 && id < 300) {
-        photo.setAttribute('src', '/icons/weather/thunder.png')
+        photo.setAttribute('src', './icons/weather/thunder.png')
     } else if(id >= 300 && id < 400) {
-        photo.setAttribute('src', '/icons/weather/smallrain.png')
+        photo.setAttribute('src', './icons/weather/smallrain.png')
     } else if(id >= 500 && id < 600) {
-        photo.setAttribute('src', '/icons/weather/rain.png')
+        photo.setAttribute('src', './icons/weather/rain.png')
     } else if(id >= 600 && id < 700) {
-        photo.setAttribute('src', '/icons/weather/snow.png')
+        photo.setAttribute('src', './icons/weather/snow.png')
     } else if(id >= 700 && id < 800) {
-        photo.setAttribute('src', '/icons/weather/fog.png')
+        photo.setAttribute('src', './icons/weather/fog.png')
     } else if(id === 800) {
-        photo.setAttribute('src', '/icons/weather/clear.png')
+        photo.setAttribute('src', './icons/weather/clear.png')
     } else if(id > 800 && id < 900) {
-        photo.setAttribute('src', '/icons/weather/cloud.png')
+        photo.setAttribute('src', './icons/weather/cloud.png')
     } else {
-        photo.setAttribute('src', '/icons/weather/unknown.png')
+        photo.setAttribute('src', './icons/weather/unknown.png')
     }
     
 }
