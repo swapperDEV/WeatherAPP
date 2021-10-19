@@ -45,21 +45,21 @@ const sevenDay = () => {
             imgWeather.classList.add('imgWeatherSeven')
             let id = thisdata.weather[0].id
             if(id >= 200 && id < 300) {
-                imgWeather.setAttribute('src', '/icons/weather/thunder.png')
+                imgWeather.setAttribute('src', './icons/weather/thunder.png')
             } else if(id >= 300 && id < 400) {
-                imgWeather.setAttribute('src', '/icons/weather/smallrain.png')
+                imgWeather.setAttribute('src', './icons/weather/smallrain.png')
             } else if(id >= 500 && id < 600) {
-                imgWeather.setAttribute('src', '/icons/weather/rain.png')
+                imgWeather.setAttribute('src', './icons/weather/rain.png')
             } else if(id >= 600 && id < 700) {
-                imgWeather.setAttribute('src', '/icons/weather/snow.png')
+                imgWeather.setAttribute('src', './icons/weather/snow.png')
             } else if(id >= 700 && id < 800) {
-                imgWeather.setAttribute('src', '/icons/weather/fog.png')
+                imgWeather.setAttribute('src', './icons/weather/fog.png')
             } else if(id === 800) {
-                imgWeather.setAttribute('src', '/icons/weather/clear.png')
+                imgWeather.setAttribute('src', './icons/weather/clear.png')
             } else if(id > 800 && id < 900) {
-                imgWeather.setAttribute('src', '/icons/weather/cloud.png')
+                imgWeather.setAttribute('src', './icons/weather/cloud.png')
             } else {
-                imgWeather.setAttribute('src', '/icons/weather/unknown.png')
+                imgWeather.setAttribute('src', './icons/weather/unknown.png')
             }
             div.appendChild(imgWeather)
             const dayTemp = document.createElement('a')
