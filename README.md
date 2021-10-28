@@ -1,5 +1,5 @@
 # WeatherAPP
-JS Weather APP
+JS Weather APP was
 contains 7day and actual forecast, date info, gps user localization
 and map with active city 
 
