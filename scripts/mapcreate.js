@@ -1,6 +1,6 @@
 const API_LINK = 'https://api.openweathermap.org/data/2.5/weather?q='
 const API_LINK2 = 'https://api.openweathermap.org/data/2.5/onecall?'
-const API_KEY = '&appid=1b52a4b46e4aa239e0e9363a3dd9080e'
+const API_KEY = '&appid=4635fbddb66396f2257be8496e9c64db'
 const API_UNITS = '&units=metric'
 
 const mapcreate = () => {
